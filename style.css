@@ -2,6 +2,15 @@ body {
 	margin: 0px;
 }
 
+a {
+	text-decoration: none;
+	color: #00d1fb;
+}
+
+a:hover {
+	color: #62defd;
+}
+
 #button {
 	width: 448px;
 	height: 128px;
@@ -47,4 +56,28 @@ p{
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	z-index: -1;
+}
+
+#rel {
+	position: relative;
+	top: 100px;
+	padding: 50px;
+	width: 640px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#other {
+	text-align: center;
+	font-family: helvetica;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#sites {
+	text-align: center;
+	font-family: helvetica;
+	font-size: 40px;
 }
