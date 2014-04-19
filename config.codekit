@@ -40,6 +40,16 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/min\/script-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/min\/script-ck.js",
+		"outputAbbreviatedPath": "\/min\/min\/script-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/script.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -47,7 +57,7 @@
 		"inputAbbreviatedPath": "\/script.js",
 		"outputAbbreviatedPath": "\/min\/script-ck.js",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/style.css": {
