@@ -29,3 +29,16 @@
 p{
 	padding: 0px;
 }
+
+#name {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 170px;
+	color: #f2f2f2;
+	display: block;
+	position: absolute;
+	top: 253px;
+	left: -100px;
+	-webkit-transform: rotate(-90deg);
+	z-index: -1;
+}
