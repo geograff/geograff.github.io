@@ -1,6 +1,31 @@
-button {
+#button {
+	width: 448px;
+	height: 128px;
 	display: block;
-	font-size: 64px;
 	margin-right: auto;
 	margin-left: auto;
+	background-image: url("butt.png");
+	background-size: 448px 128px;
+	cursor: pointer;
+}
+
+#button:hover {
+	background-image: url("butt_hover.png")
+}
+
+#text {
+	width: 640px;
+	display: block;
+	padding: 0px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	font-family: helvetica;
+	font-size: 32px;
+	margin: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p{
+	padding: 0px;
 }
