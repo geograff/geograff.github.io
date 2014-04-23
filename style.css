@@ -17,13 +17,15 @@ a:hover {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url("butt.png");
-	background-size: 448px 128px;
+	background-image: url("fin.png");
+	background-size: 448px 256px;
+    background-position: bottom;
 	cursor: pointer;
+    border-radius: 64px;
 }
 
 #button:hover {
-	background-image: url("butt_hover.png")
+	background-position: top;
 }
 
 #text {
