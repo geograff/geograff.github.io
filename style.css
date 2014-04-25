@@ -17,15 +17,13 @@ a:hover {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: url("fin.png");
-	background-size: 448px 256px;
-    background-position: bottom;
 	cursor: pointer;
     border-radius: 64px;
+    background-color: #00d1fb;
 }
 
 #button:hover {
-	background-position: top;
+	background-color: #62defd;
 }
 
 #text {
@@ -82,4 +80,16 @@ p{
 	text-align: center;
 	font-family: helvetica;
 	font-size: 40px;
+}
+
+#butttext {
+    color: white;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 90px;
+    height: 128px;
+    line-height: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
